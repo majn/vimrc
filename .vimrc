@@ -10,6 +10,15 @@ syntax on
 let &t_Co=256
 set hlsearch
 
+" expand tabs to spaces
+set expandtab
+" one tab is 4 whitespaces long
+set tabstop=4
+" exchange existing tab with spaces
+retab
+" exchange existing tabs with 4 spaces
+set shiftwidth=4
+
 "Noweb
 au BufRead,BufNewFile *.nw    set filetype=noweb 
 
