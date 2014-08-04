@@ -56,12 +56,16 @@ Bundle 'bling/vim-airline'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'flazz/vim-colorschemes'
 Bundle 'Valloric/YouCompleteMe'
+Bundle 'majutsushi/tagbar'
 "Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 
 " vim-scripts repos
 "Bundle 'L9'
 "Bundle 'FuzzyFinder'
+
+" Tagbar
+nmap <F8> :TagbarToggle<CR>
 
 "
 " Command-T
